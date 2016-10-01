@@ -1,0 +1,26 @@
+/*
+CSE109
+Cole Tomlinson
+cmt218
+Trie data structure program
+Program #3
+*/
+
+#include <cstdlib>
+#include "node.h"
+
+Node::Node(){
+  numLinks = 0;
+}
+
+Node::~Node() {
+ 
+}
+
+void Node::setVal(int val){
+  nodeVal = val;
+}
+
+int Node::getVal() {
+  return nodeVal;
+}

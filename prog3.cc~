@@ -1,0 +1,36 @@
+/*
+  CSE109
+  Cole Tomlinson
+  cmt218
+  Trie data structure program
+  Program #3
+*/
+
+#include <iostream>
+#include "trie.h"
+#include "node.h"
+#include "link.h"
+#include "tri.h"
+
+using namespace std;
+
+int main(int argc, char** argv){
+
+  Tri t;
+  t.put("racecar",5);
+  cout << t.get("racecar") << endl;
+
+  t.put("race",15);
+  cout << t.get("race") << endl;
+
+  t.put("racetrack",9);
+  cout << t.get("racetrack") << endl;
+
+  t.put("race",7);
+  cout << t.get("race") << endl;
+
+  cout << t.get("cats") << endl;
+  
+  return 0;
+
+}

@@ -1,0 +1,26 @@
+/*
+  CSE109
+  Cole Tomlinson
+  cmt218
+  Trie data structure program
+  Program #3
+*/
+
+
+#include <cstdlib>
+#include "link.h"
+
+Link::Link() {
+}
+
+Link::~Link() {
+  
+}
+
+void Link::setLet(char a) {
+  letter = a;
+}
+
+char Link::getLet() {
+  return letter;
+}
